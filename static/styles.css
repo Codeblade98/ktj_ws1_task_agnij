@@ -81,7 +81,7 @@ body {
   }
 
   #subtitle{
-   font-size: 100px;
+   font-size: 80px;
    margin-top: 0;
   }
 
@@ -133,8 +133,6 @@ body {
 
     #subtitle{
         font-size: 50px;
-        -webkit-text-stroke: #FFF;
-        -webkit-text-stroke-width: 1px;
     }
 
     #introduction img{
