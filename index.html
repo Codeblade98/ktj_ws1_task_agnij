@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Super Duper Bookstore</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+        <ul>
+            <li><a id="nav1" href="#introduction">Introduction</a></li>
+            <li><a id="nav2" href="#best-selling-books">Best Selling Books</a></li>
+            <li><a id="nav3" href="#our-recommendations">Our Recommendations</a></li>
+            <li><a id="nav4" href="#reviews">Reviews</a></li>
+        </ul>
+    </div>
+  </nav>
+
+  <div class="section" id="introduction">
+    <div class="container">
+        <div class="left-side">
+          <h2>The Super Duper Bookstore</h2>
+          <h1 id="subtitle">Wanna read! We got your back</h1>
+          <div id="best-seller-button">
+            <p>Unsure about what to buy? Check out our bestsellers <a href="#best-selling-books">here</a>.</p>
+          </div>
+        </div>
+        <div class="right-side">
+          <img src="static/images/bookstore.jpg" alt="Bookstore cover page">
+        </div>
+      </div>
+  </div>
+
+  <div class="section" id="best-selling-books">
+    <h1>Best Selling Books</h1>
+    <div class="book-gallery" id="best-sellers">
+        <div class="book1">
+            <div class="book-container">
+                <img class="book-image" src="static/images/the_alchemist.jpg" alt="The Alchemist">
+                <span class="genre">Fantasy</span>
+                <div class="book-description">Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. </div>
+            </div>
+            <p class="book-name">The Alchemist - <b>Rs.235</b></p>
+            <button class="add">Add</button> <button class="remove">Remove</button>
+        </div>
+        <div class="book2">
+            <div class="book-container">
+                <img class="book-image" src="static/images/five_people.jpg" alt="The Five People You Meet in Heaven">
+                <span class="genre">Philosophical Fiction</span>
+                <div class="book-description">This story by Mitch Albom follows the life and death of Eddie who is killed in an amusement park accident and sent to heaven, where he encounters five people who had a significant impact on him while he was alive. </div>
+            </div>
+            <p class="book-name">The Five People You Meet in Heaven- <b>Rs.219</b></p>
+            <button class="add">Add</button> <button class="remove">Remove</button>
+        </div>
+        <div class="book3">
+            <div class="book-container" >
+                <img class="book-image" src="static/images/hp_1.jpg" alt="Harry Potter and The Philosopher's Stone">
+                <span class="genre">Fantasy</span>
+                <div class="book-description">A fantasy novel written by British author J. K. Rowling. The first novel in the Harry Potter series, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday</div>
+            </div>
+            <p class="book-name">Harry Potter and The Philosopher's Stone - <b>Rs.275</b></p>
+            <button class="add">Add</button> <button class="remove">Remove</button>
+        </div>
+        <div class="book4">
+            <div class="book-container">
+                <img class="book-image" src="static/images/to_kill_mb.jpg" alt="To Kill a Mockingbird">
+                <span class="genre">Bildungsroman</span>
+                <div class="book-description">Harper Lee's classic novel is both a young girl's coming-of-age story and a darker drama about the roots and consequences of racism and prejudice, probing how good and evil can coexist within a single community or individual.</div>
+            </div>
+            <p class="book-name">To Kill a Mockingbird - <b>Rs.247</b></p>
+            <button class="add">Add</button> <button class="remove">Remove</button>
+        </div>
+        <div class="book5">
+            <div class="book-container">
+                <img class="book-image" src="static/images/the_hobbit.jpg" alt="The Hobbit">
+                <span class="genre">Juvenille Fantasy</span>
+                <div class="book-description">A fantasy novel written by English author J. R. R. Tolkien. The first book in the The Hobbit trilogy, it follows Bilbo Baggins, a hobbit who is on the search for the Golden Ring, which is the key to immortality.</div>
+            </div>
+            <p class="book-name">The Hobbit - <b>Rs.381</b></p>
+            <button class="add">Add</button> <button class="remove">Remove</button>
+        </div>
+    </div>
+    <article>
+        Books have the magical ability to transport us to new worlds, inspire us with profound ideas, and touch our hearts in ways that few other mediums can. Throughout history, countless books have graced the shelves of bookstores, captivating readers and leaving an indelible mark on society. Among these literary treasures, a select few have managed to rise above the rest, earning the coveted title of "best-sellers." Let us embark on a journey to discover the essence of what makes a book soar to the pinnacle of success.
+    </article>
+  </div>
+
+  <div class="section" id="our-recommendations">
+    <h1>Our Recommendations</h1>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search...">
+        <button class="search-button"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="book-gallery" id="recommendations">
+        <div class="book1">
+            <div class="book-container">
+                <img class="book-image" src="static/images/return_holmes.jpg" alt="The Return of Sherlock Holmes">
+                <div class="rec-book-name">The Return of Sherlock Holmes - Sir Arthur Conan Doyle <p>Fiction Rs.129</p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>
+        <div class="book2">
+            <div class="book-container">
+                <img class="book-image" src="static/images/da_vinci_code.jpg" alt="The Da Vinci Code">
+                <div class="rec-book-name">The Da Vinci Code - Dan Brown <p>Fiction Rs.339</p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>
+        <div class="book3">
+            <div class="book-container">
+                <img class="book-image" src="static/images/kite_runner.jpg" alt="The Kite Runner">
+                <div class="rec-book-name">The Kite Runner - Khaled Hosseini <p>Fiction Rs.194<p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>
+        <div class="book4">
+            <div class="book-container">
+                <img class="book-image" src="static/images/s_s_story.jpg" alt="Selected Short Stories">
+                <div class="rec-book-name">Selected Short Stories - Rabindranath Tagore <p>Fiction Rs.90</p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>
+        <div class="book5">
+            <div class="book-container">
+                <img class="book-image" src="static/images/feluda_english.jpg" alt="The Complete Adventures of Feluda">
+                <div class="rec-book-name">The Complete Adventures of Feluda - Satyajit Ray <p>Fiction Rs.180</p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>
+        <div class="book6">
+            <div class="book-container">
+                <img class="book-image" src="static/images/abc_murders.jpg" alt="The ABC Murders">
+                <div class="rec-book-name">The ABC Murders - Agatha Christie <p>Fiction Rs.291</p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>
+        <div class="book7">
+            <div class="book-container" >
+                <img class="book-image" src="static/images/rich_poor_dad.jpg" alt="Rich Dad and Poor Dad">
+                <div class="rec-book-name">Rich Dad and Poor Dad - Robert K Kiyosaki <p>Non-Fiction Rs.335</p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>
+        <div class="book8">
+            <div class="book-container">
+                <img class="book-image" src="static/images/the_black_swan.jpg" alt="The Black Swan">
+                <div class="rec-book-name">The Black Swan - N.N. Taleb <p>Non-Fiction Rs.437</p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>
+        <div class="book9">
+            <div class="book-container">
+                <img class="book-image" src="static/images/the_int_inv.jpg" alt="The Intelligent Investor">
+                <div class="rec-book-name">The Intelligent Investor - Benjamin Graham <p>Non-Fiction Rs.242</p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>
+        <div class="book10">
+            <div class="book-container">
+                <img class="book-image" src="static/images/psych_of_money.jpg" alt="The Psycology of Money">
+                <div class="rec-book-name">The Psychology of Money - Morgan Housel <p>Non-Fiction Rs.149</p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>
+        <div class="book11">
+            <div class="book-container">
+                <img class="book-image" src="static/images/the_art_of_war.jpg" alt="The Art of War">
+                <div class="rec-book-name">The Art of War (English translation) - Sun Tzu <p>Non-Fiction Rs.76</p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>
+        <div class="book12">
+            <div class="book-container">
+                <img class="book-image" src="static/images/man_eaters_kumaon.jpg" alt="The Man Eaters of Kumaon">
+                <div class="rec-book-name">The Man Eaters of Kumaon - Jim Corbett <p>Non-Fiction Rs.133</p></div>
+                <button class="add2">Add</button> <button class="remove2">Remove</button>
+            </div>
+        </div>    
+    </div>
+  </div>
+
+  <div class="section" id="reviews">
+    <h1>Reviews</h1>
+    <p>Here are some reviews of our books.</p>
+    <div class="review-cards">
+        <div class="review-card" id="card1">
+            <img src="static/images/goku.jpg" alt="customer1" class="customer">
+            <blockquote>
+                "The collection of books is very strong. I want to have a fight with it."
+            </blockquote>
+        </div>
+        <div class="review-card" id="card2">
+            <img src="static/images/iron_man.jpg" alt="customer2" class="customer">
+            <blockquote>
+                "The non-fiction books will help you become genius, billionaire, playboy, philanthropist like me."
+            </blockquote>
+        </div>
+        <div class="review-card" id="card3">
+            <img src="static/images/darth_vader.jpg" alt="customer3" class="customer">
+            <blockquote>
+                "The force is strong with the best-selling books. Check it out to escape my force choke."
+            </blockquote>
+        </div>
+    </div>
+    <div class="review-container">
+        <h2>Your review would be appreciated</h2>
+        <form id="review-form">
+          <input type="text" class="review-input" id="name-input" placeholder="Your Name" required>
+          <textarea class="review-input" id="review-input" placeholder="Write your review" required></textarea>
+          <button type="submit" class="review-submit">Submit Review</button>
+        </form>
+    </div>
+  </div>
+  <footer>
+        <div class="social-media-container">
+            <a class="social-media-link" href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a class="social-media-link" href="https://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a class="social-media-link" href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a class="social-media-link" href="https://www.github.com" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a class="social-media-link" href="https://www.kaggle.com" target="_blank">
+                <i class="fab fa-kaggle"></i>
+            </a>
+        </div>
+        <div class="back-to-top">
+            <a href="#top">
+                <i class="fas fa-arrow-up"> Back to top</i>
+            </a>
+        </div>
+  </footer>
+</body>
+</html>
